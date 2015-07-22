@@ -129,10 +129,18 @@
                                     <action selector="stopPlaying:" destination="FTX-pO-kMT" eventType="touchUpInside" id="LfU-1y-LMP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTF-Sa-L6W">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="Chipmunk">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ELi-PC-00P" firstAttribute="top" secondItem="XAt-fg-kao" secondAttribute="bottom" constant="40" id="4uL-at-VwN"/>
+                            <constraint firstItem="xTF-Sa-L6W" firstAttribute="leading" secondItem="ldC-Dk-blj" secondAttribute="leadingMargin" constant="15" id="50p-4p-ekf"/>
+                            <constraint firstItem="cKu-hd-9Qt" firstAttribute="top" secondItem="xTF-Sa-L6W" secondAttribute="bottom" constant="140" id="Ior-8x-ubE"/>
                             <constraint firstAttribute="centerX" secondItem="m8C-p7-gS4" secondAttribute="centerX" id="P4g-1h-kIA"/>
                             <constraint firstItem="cKu-hd-9Qt" firstAttribute="top" secondItem="m8C-p7-gS4" secondAttribute="bottom" constant="40" id="o8R-DE-873"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ELi-PC-00P" secondAttribute="trailing" constant="15" id="tP8-VI-Bsc"/>
@@ -144,13 +152,16 @@
                                 <exclude reference="1q8-a7-dgI"/>
                                 <exclude reference="ELi-PC-00P"/>
                                 <exclude reference="m8C-p7-gS4"/>
+                                <exclude reference="xTF-Sa-L6W"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="tgN-fB-okn"/>
                                 <exclude reference="unj-u5-eyX"/>
                                 <exclude reference="4uL-at-VwN"/>
                                 <exclude reference="tP8-VI-Bsc"/>
+                                <exclude reference="50p-4p-ekf"/>
                                 <exclude reference="P4g-1h-kIA"/>
+                                <exclude reference="Ior-8x-ubE"/>
                                 <exclude reference="o8R-DE-873"/>
                             </mask>
                         </variation>
@@ -159,13 +170,16 @@
                                 <include reference="1q8-a7-dgI"/>
                                 <include reference="ELi-PC-00P"/>
                                 <include reference="m8C-p7-gS4"/>
+                                <include reference="xTF-Sa-L6W"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="tgN-fB-okn"/>
                                 <include reference="unj-u5-eyX"/>
                                 <include reference="4uL-at-VwN"/>
                                 <include reference="tP8-VI-Bsc"/>
+                                <include reference="50p-4p-ekf"/>
                                 <include reference="P4g-1h-kIA"/>
+                                <include reference="Ior-8x-ubE"/>
                                 <include reference="o8R-DE-873"/>
                             </mask>
                         </variation>
@@ -195,6 +209,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Chipmunk" width="100" height="100"/>
         <image name="FastSound" width="100" height="100"/>
         <image name="Microphone" width="100" height="100"/>
         <image name="SlowSound" width="100" height="100"/>
