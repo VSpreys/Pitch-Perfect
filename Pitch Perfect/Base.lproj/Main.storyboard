@@ -36,7 +36,7 @@
                                     <action selector="stopAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7Tk-4b-HlM"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recording" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTG-fp-HGy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTG-fp-HGy">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -171,16 +171,16 @@
                                 <exclude reference="oM8-gd-LZU"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="6vW-U7-332"/>
+                                <exclude reference="Ior-8x-ubE"/>
+                                <exclude reference="o8R-DE-873"/>
                                 <exclude reference="tgN-fB-okn"/>
                                 <exclude reference="unj-u5-eyX"/>
                                 <exclude reference="4uL-at-VwN"/>
                                 <exclude reference="tP8-VI-Bsc"/>
-                                <exclude reference="50p-4p-ekf"/>
-                                <exclude reference="2lq-4d-xnb"/>
                                 <exclude reference="P4g-1h-kIA"/>
-                                <exclude reference="6vW-U7-332"/>
-                                <exclude reference="Ior-8x-ubE"/>
-                                <exclude reference="o8R-DE-873"/>
+                                <exclude reference="2lq-4d-xnb"/>
+                                <exclude reference="50p-4p-ekf"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -192,23 +192,23 @@
                                 <include reference="oM8-gd-LZU"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="6vW-U7-332"/>
+                                <include reference="Ior-8x-ubE"/>
+                                <include reference="o8R-DE-873"/>
                                 <include reference="tgN-fB-okn"/>
                                 <include reference="unj-u5-eyX"/>
                                 <include reference="4uL-at-VwN"/>
                                 <include reference="tP8-VI-Bsc"/>
-                                <include reference="50p-4p-ekf"/>
-                                <include reference="2lq-4d-xnb"/>
                                 <include reference="P4g-1h-kIA"/>
-                                <include reference="6vW-U7-332"/>
-                                <include reference="Ior-8x-ubE"/>
-                                <include reference="o8R-DE-873"/>
+                                <include reference="2lq-4d-xnb"/>
+                                <include reference="50p-4p-ekf"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fU7-3R-FDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2019" y="297"/>
+            <point key="canvasLocation" x="2194.5" y="343"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="POz-3k-DfF">
@@ -226,7 +226,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SFd-2X-YNp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="358.5" y="-396"/>
+            <point key="canvasLocation" x="364.5" y="343"/>
         </scene>
     </scenes>
     <resources>

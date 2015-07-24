@@ -17,6 +17,8 @@ class PlaySoundsViewController: UIViewController {
     var audioFile:AVAudioFile!
 
     override func viewDidLoad() {
+        
+        self.view.backgroundColor = UIColor.orangeColor()
         super.viewDidLoad()
 
 //        // Do any additional setup after loading the view.
@@ -35,6 +37,7 @@ class PlaySoundsViewController: UIViewController {
         audioEngine = AVAudioEngine()
         audioFile = AVAudioFile(forReading: receiveAudio.filePathUrl, error: nil)
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
