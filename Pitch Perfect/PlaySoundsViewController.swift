@@ -44,10 +44,12 @@ class PlaySoundsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func playSlow(sender: UIButton) {
+        audioPlayer.stop()
         audioPlayer.rate = 0.5
         audioPlayer.play()
     }
     @IBAction func playFast(sender: UIButton) {
+        audioPlayer.stop()
         audioPlayer.rate = 2.0
         audioPlayer.play()
     }
@@ -55,11 +57,13 @@ class PlaySoundsViewController: UIViewController {
 
     
     @IBAction func playChipmunkAudio(sender: UIButton) {
+        audioPlayer.stop()
         playAudioWithVariablePitch(1000)
     }
     
     
     @IBAction func playDarthVaderAudio(sender: UIButton) {
+        audioPlayer.stop()
         playAudioWithVariablePitch(-1000)
     }
     
